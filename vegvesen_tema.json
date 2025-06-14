@@ -1,0 +1,20 @@
+{
+  "name": "Vegvesen Classic",
+  "dataColors": [ "#D9544D", "#F39C12", "#334E68", "#9B2226", "#F0A202", "#DDDDDD" ],
+  "background": "#F8F8F8",
+  "foreground": "#111111",
+  "tableAccent": "#D9544D",
+  "visualStyles": {
+    "*": {
+      "*": {
+        "title": [ { "color": { "solid": { "color": "#111111" } }, "fontSize": 14 } ],
+        "labels": [ { "color": { "solid": { "color": "#111111" } } } ]
+      }
+    },
+    "card": {
+      "*": {
+        "dataLabels": [ { "fontSize": 36, "color": { "solid": { "color": "#D9544D" } } } ]
+      }
+    }
+  }
+}
